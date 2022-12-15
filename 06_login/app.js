@@ -30,21 +30,19 @@ onAuthStateChanged(auth, (user) =>{
 <table class=" table table-info" id="container3">  
     <thead>
     <tr class="table-info">
-      <th class="table-info"><h1>No.Control</h1></th>
-      <th class="table-info"><h1>Nombre</h1></th>
-      <th class="table-info"><h1>Apellido P</h1></th>
-      <th class="table-info"><h1>Apellido M</h1></th>
-      <th class="table-info"><h1>Carrrera</h1></th>
-      <th class="table-info"><h1>Editar</h1></th>
-      <th class="table-info"><h1>Eliminar</h1></th>
-      <th class="table-info"><h1>QR</h1></th>
+      <th class="table-info">No.Control</th>
+      <th class="table-info">Nombre</th>
+      <th class="table-info">Apellido P</th>
+      <th class="table-info">Apellido M</th>
+      <th class="table-info">Carrrera</th>
+      <th class="table-info">Editar</th>
+      <th class="table-info">Eliminar</th>
+      <th class="table-info">QR</th>
     </tr>
   </thead>
-    <table id="container2"" class="table table-info">
-  
-      
-          </table>
-    
+    <tbody id="container2" class="table table-info">
+          </tbody>
+    </table>
     
     `
     const uid= user.uid;

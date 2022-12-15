@@ -30,14 +30,14 @@ window.addEventListener("DOMContentLoaded", async (e) => {
             divAlumnos.innerHTML += `
             
                 <tr class="table-info">
-                    <td class="table-info">${alumno.nocontrol}</td>
-                    <td class="table-info">${alumno.nombre}</td>
-                    <td class="table-info">${alumno.apaterno}</td>
-                    <td class="table-info">${alumno.amaterno}</td>
-                    <td class="table-info">${alumno.carrera}</td>
-                    <td class="table-info"><button class="btn btn-danger btnEliminarAlumno" data-id="${doc.id}"><i class="bi bi-trash"></i></button></td>
-                    <td class="table-info"><button class="btn btn-primary btnEditarAlumno" data-bs-toggle="modal" data-bs-target="#eddModal"   data-id="${doc.id}"><i class="bi bi-pencil"></i></button></td>
-                    <td class="table-info"><button class="btn btn-info btnQRAlumnos" data-bs-toggle="modal" data-bs-target="#qrModal"   data-id="${doc.id}"><i class="bi bi-qr-code"></i></button></td>
+                    <td class="table-dark">${alumno.nocontrol}</td>
+                    <td class="table-dark">${alumno.nombre}</td>
+                    <td class="table-dark">${alumno.apaterno}</td>
+                    <td class="table-dark">${alumno.amaterno}</td>
+                    <td class="table-dark">${alumno.carrera}</td>
+                    <td class="table-dark"><button class="btn btn-danger btnEliminarAlumno" data-id="${doc.id}"><i class="bi bi-trash-fill"></i></button></td>
+                    <td class="table-dark"><button class="btn btn-primary btnEditarAlumno" data-bs-toggle="modal" data-bs-target="#eddModal"   data-id="${doc.id}"><i class="bi bi-pencil-fill"></i></button></td>
+                    <td class="table-light"><button class="btn btn-info btnQRAlumnos" data-bs-toggle="modal" data-bs-target="#qrModal"   data-id="${doc.id}"><i class="bi bi-qr-code"></i></button></td>
                 </tr>`;
         });
  
